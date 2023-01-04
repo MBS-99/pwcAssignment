@@ -1,0 +1,53 @@
+.container {
+    text-align: left;
+    /* border: 2px solid rgb(102, 0, 255); */
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+input,
+button,
+.results {
+    height: 35px;
+    font-size: 12px;
+}
+
+input {
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+button {
+    margin: 10px;
+    background-color: rgb(7, 58, 7);
+    color: white;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(26, 135, 26);
+}
+
+#map {
+    /* margin-left: 250px; */
+    height: 90vh;
+    width: 170vh;
+
+    /* text-align: center; */
+}
+
+#results {
+    margin-left: 10px;
+}
