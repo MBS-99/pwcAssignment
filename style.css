@@ -41,11 +41,8 @@ button:hover {
 }
 
 #map {
-    /* margin-left: 250px; */
     height: 90vh;
     width: 170vh;
-
-    /* text-align: center; */
 }
 
 #results {
